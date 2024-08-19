@@ -27,5 +27,5 @@ jobs:
           application_name: 'book'
           environment_name: 'Book-env1'
           version_label: ${{ github.sha }}
-          region: us-east-1
+          region: eu-central-1
           deployment_package: Book-Store-Backend-master-build.zip
